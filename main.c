@@ -17,8 +17,9 @@ int main(int argc, char argv[]){
     // printf("%s",string_to_parse);
 
     // Processing as a concatenate list 
-    link head = create(N);
-    printList(head);
+    link head = NULL;
+    create(N,head);
+    //printList(head);
 
 
     return EXIT_SUCCESS;
